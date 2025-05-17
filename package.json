@@ -1,0 +1,16 @@
+{
+  "name": "social-network-templates",
+  "version": "1.0.0",
+  "description": "A collection of social network templates for GitHub Pages.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build process can be added here.'"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
