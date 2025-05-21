@@ -1,0 +1,30 @@
+site_name: Мой сайт
+site_url: https://example.com
+repo_url: https://github.com/yourusername/yourrepo
+
+theme:
+  name: material
+  language: ru
+
+nav:
+  - Home: index.md
+  - Download: download.md
+  - Documentation: documentation.md
+  - Community: community.md
+  - About: about.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - codehilite
+  - footnotes
+  - meta
+  - tables
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tabbed
+  - pymdownx.emoji
+
+plugins:
+  - search
